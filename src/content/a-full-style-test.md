@@ -1,6 +1,6 @@
 ---
 layout: post
-title: A Full and Comprehensive Style Test
+title: L'ascension du Javascript peut-elle sauver l'humanité ?
 image: img/testimg-cover.jpg
 author: Ghost
 date: 2018-09-30T07:03:47.149Z
@@ -8,17 +8,72 @@ tags:
   - Tests
 ---
 
-Below is just about everything you’ll need to style in the theme. Check the source code to see the many embedded elements within paragraphs.
+S’il est vrai qu’un langage ne laisse pas indifférent, c’est bien Javascript. 
+Fort d’une immense communauté à travers le globe et d’une popularité manifeste, il n’en demeure pas moins la cible de critiques virulentes de développeurs de tous horizons.
+
+En effet,  il est difficile (voire impossible) d’y être étranger : en plus de posséder le monopole incontesté du développement front-end, c’est aussi un véritable couteau-suisse qui a peu à peu envahi les développements back-end, mobiles et même 3D. 
+
+Alors qu’on aurait pu le présupposer en véritable messie, unifiant les équipes de programmeurs sous un même langage et entraînant une certaine agilité entre les différents domaines d’application, le constat aujourd’hui est empreint d’un réalisme bien plus sévère.
+L’effervescence de la communauté Javascript, dont l’enthousiasme et le dynamisme n’est plus à démontrer, a entraîné un effet secondaire plutôt fâcheux : l’absence de standard. Déjà décrié par lui-même pour sa syntaxe, son typage et certaines incohérences, c’est désormais la communauté qui est également visée.
+Trop de librairies différentes , trop d’évolutions, trop de stacks envisageables…
+
+Bien que cela puisse sembler tout à fait déstabilisant au premier abord, est-ce finalement vraiment un mal ? La diversité des solutions apportées, l’ardeur autour du langage et des différentes librairies ne peuvent-elles pas être un véritable avantage distinctif lorsqu’ils sont portés par une communauté soudée ?
 
 ---
 
-# Heading 1
+## A brief history of Javascript
 
-## Heading 2
+ 
+La première chose dont Javascript a eu du mal à se défaire, avant d’être perçu comme un authentique langage de programmation et pas uniquement en tant que langage de scripting, est de son origine un peu douteuse.
+ 
+Sans trop rentrer dans les détails, les décisions marketing ont poussé l’outil (pourtant d’abord dénommé Livescript) à s’appeler “Javascript” pour bénéficier du rayonnement de Java tout en se voulant beaucoup plus accessible, et exclusivement pour le web. Ce qui était une sorte de clin d’oeil a finit par desservir le langage en lui-même...
+Javascript a donc longtemps été perçu comme une version appauvrie de Java. Pourtant, leurs divergences originelles ont permis aux deux langages d’avoir des philosophies et des domaines d’application complètement différents.
 
-### Heading 3
+Historiquement, Javascript a donc été créé le tout premier langage de scripting web, créé pour être utilisé par le navigateur Netscape. Avant, il n’y avait rien entre les serveurs et les pages html qu’ils retournaient. 
+Il s’agit donc d’un langage côté client, qui utilise et manipule le DOM et qui a permis de dynamiser les pages tout en apportant une certaine plus value stylistique (en particulier lorsque combiné avec CSS). 
 
-#### Heading 4
+Désormais, nous sommes bien loin des petites lignes de scripts ajoutées à la volée pour égayer une page : le développement front-end permet d’écrire des sites web de A à Z en Javascript. Ses champs d’utilisation sont devenus de plus en plus vaste au fil des années, à tel point qu’il a fini par envahir les serveurs et bien plus encore. 
+
+
+## Un développement tentaculaire en front
+
+
+Aujourd’hui, tenter de lister exhaustivement toutes les librairies qui existent s’avère impossible. 
+
+Nous pouvons néanmoins en citer qui se démarquent dans chaque catégorie : React, Angular et Vue comme Frameworks front-end (et c’est déjà 3...), Enzyme, Jasmine, Jest à différents niveaux pour écrire des tests unitaires, Express, Koa, Hapi pour les serveurs…
+
+A vrai dire, il y en a quasiment une infinité, et les différentes combinaisons imaginables sont véritablement sans fin. Difficile de savoir si quelque chose est bon ou mauvais, si rien en particulier ne semble atteindre le haut du panier.
+
+On peut alors aisément comprendre ceux pour qui choisir une bonne stack s’avère être un véritable casse-tête. 
+
+
+![Test Image](img/javascript_meme.png)
+
+
+Par ailleurs, il faut même choisir entre plusieurs gestionnaires de dépendances avant d’avoir à choisir ses propres dépendances : npm et yarn. 
+
+En plus des innombrables possibilités pour bâtir une application, chacune est en quelque sorte en mouvement permanent sous le joug de nouvelles versions qui viennent balayer (plus ou moins violemment, car les soucis d’incompatibilité sont un réel problème) les anciennes. 
+
+Le problème des dépendances, évoquées plus haut, est donc un point à soulever, entre obsolescence et incompatibilités induites par cet impératif d’être à jour avec cet empilement de technologies. Une certaine gymnastique est nécessaire pour garantir le fonctionnement optimal d’un projet dans le temps.
+ 
+
+
+## Le cas de React
+
+On peut  donc critiquer l’ensemble des nouveaux Frameworks qui sortent “chaque semaine”, mais prenons un exemple concret : le cas React. 
+
+Sa première version date de 2013, et à l’heure où j’écris ces lignes, le framework s’apprête à souffler ses 6 bougies.
+
+![Test Image](img/graph_js.png)
+
+Parmi nos 3 géants (pour rappel React-Angular-Vue), c’est le leader incontesté des dernières années. Malgré l’essor de Vue, il persiste à asseoir sa domination écrasante grâce à un écart impressionnant avec les suivants (cf figure ci-dessus). 
+
+Concrètement, l’équipe derrière React est aussi celle qui est en charge de Facebook. Vu le mastodonte qu’est l’application aujourd’hui, on peut aisément imaginer que les développeurs ont dû mettre au coeur de leurs préoccupations la viabilité de leur solution.
+Facebook comme React ont tous deux évolué : fonctionnellement et technologiquement. Cela a été permis grâce à un fort focus sur la rétrocompatibilité. 
+
+Depuis la première heure et en dépit de toutes les différentes versions, React n’a, dans les faits, pas tant changé que ça. En mettant l’accent sur la rétrocompatibilité, React a pu continuer d’avancer sans condamner la totalité des projets qui auraient eu le malheur de se laisser dépasser. 
+
+
 
 ##### Heading 5
 
